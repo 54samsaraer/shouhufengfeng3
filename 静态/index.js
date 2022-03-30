@@ -465,11 +465,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '弱爆了！';
+        if (cps <= 8) return '还达不到要求';
+        if (cps <= 10)  return '罚吧，20遍';
+        if (cps <= 15) return '这有什么值得骄↘傲↗的？';
+        return '逊';
     }
 
     function toStr(obj) {
